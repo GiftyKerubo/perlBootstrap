@@ -9,10 +9,74 @@
     <title>Bootstrap</title>
 </head>
 <body>
+<!--start of navbar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Perl Class</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Python</a></li>
+            <li><a class="dropdown-item" href="#">Reactjs</a></li>
+<!--            <li><hr class="dropdown-divider"></li>-->
+            <li><a class="dropdown-item" href="#">Data Science</a></li>
+              <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+
+          </ul>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Intakes</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">MobiGirls</a>
+        </li>
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link disabled" aria-disabled="true">Disabled</a>-->
+<!--        </li>-->
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--end of navbar-->
+
+
 <div class="container-fluid bg-primary p-5 text-center text-warning">
     <h2>Welcome to Perl Class</h2>
 
 </div>
+
+<!--start of carousel-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assests/images/RONOROA.png" class="d-block w-100" alt="..." height="350">
+    </div>
+    <div class="carousel-item">
+      <img src="assests/images/ROBIN.jpg.png" class="d-block w-100" alt="..." height="350">
+    </div>
+    <div class="carousel-item">
+      <img src="assests/images/AOKIJI.png" class="d-block w-100" alt="..." height="350">
+    </div>
+  </div>
+</div>
+<!--end of carousel-->
 
 <div class="container-fluid mt-5">
     <div class="row me-3">
@@ -38,6 +102,17 @@
 
 
 </div>
+<!--card start-->
+
+<div class="card" style="width: 18rem;">
+  <img src="assests/images/LUFFY.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Reverse call</h5>
+    <p class="card-text">A service that enables a customer to make a call without airtime.</p>
+    <a href="#" class="btn btn-primary">Learn more</a>
+  </div>
+</div>
+<!--card end-->
 
 <script src="assests/js/bootstrap.bundle.min.js"></script>
 </body>
